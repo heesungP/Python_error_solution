@@ -3,10 +3,11 @@
 
 # Keras
 
-## - 2021.05.11 : AttributeError: module 'tensorflow.python.framework.ops' has no attribute '_TensorLike'
+## 2021.05.11
+## AttributeError: module 'tensorflow.python.framework.ops' has no attribute '_TensorLike'
 
-from keras.layers import SimpleRNN\n
-from keras.layers import Dense, Input\n
+from keras.layers import SimpleRNN
+from keras.layers import Dense, Input
 from keras.models import Model
 
 강의에서 위와 같이 keras layer와 model을 import 하라는 상황이었는데 Attribute Error가 발생
