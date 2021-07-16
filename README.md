@@ -75,3 +75,14 @@ import cv2
 [Anaconda Prompt]
 pip install opencv-python
 ```
+
+##[2021.07.16]
+### - ModuleNotFoundError: No module named 'kornia'
+```
+import kornia
+```
+### - Solution
+```
+[Anaconda Prompt]
+pip install kornia
+```
